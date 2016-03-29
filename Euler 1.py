@@ -16,3 +16,14 @@ def calculate():
     return sum(l)
 
 print(calculate())
+
+
+def listcomprehension():
+    """
+    Wondered hoe small I could crush the function after reading about one line list comprehensions
+    (http://blog.teamtreehouse.com/python-single-line-loops)
+    ...it works!
+    """
+    return sum([i for i in range(0, 1000) if i % 3 == 0 or i % 5 == 0])
+
+print(listcomprehension())
