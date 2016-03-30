@@ -3,12 +3,14 @@ The solution to Euler Project Problem 3
 https://projecteuler.net/problem=3
 """
 
+
 def calculate(num):
-    for i in range(num,1,-2):
+    answer = num
+    for i in range(1, num):
         if isprime(i) is True:
             if num % i == 0:
-                print(i)
-                return i
+                answer /= i
+    return answer
 
 
 def isprime(n):
@@ -30,5 +32,6 @@ def isprime(n):
         if n % x == 0:
                     return False
     return True
+
 
 print(calculate(600851475143))
