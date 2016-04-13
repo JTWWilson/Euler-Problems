@@ -58,7 +58,6 @@ def compact():
             [1, 2, 3, 4, 5, 6, 7, 8, 9, 0], [1, 2, 3, 4, 5, 6, 7, 8, 9, 0], [1, 2, 3, 4, 5, 6, 7, 8, 9, 0], [1, 2, 3, 4, 5, 6, 7, 8, 9, 0]]
     loopVars = [s1,s2,s3,s4,s5,s6,s7,s8,s9,s10,s11,s12,s13,s14,s15,s16]
     possibles = []
-    for i
     for j in loopVars:
         for loopVars[j] in grid[j]:
             if sum([s1,s2,s3,s4])==i and sum([s5,s6,s7,s8])==i and sum([s9,s10,s11,s12])==i and sum([s13,s14,s15,s16])==i and sum([s1,s5,s9,s13])==i and sum([s2,s6,s10,s14])==i and sum([s3,s7,s11,s15])==i and sum([s4,s8,s12,s16])==i and sum([s1,s6,s11,s16])==i and sum([s4,s7,s10,s13])==i:
