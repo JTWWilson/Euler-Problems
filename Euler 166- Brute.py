@@ -5,7 +5,7 @@ def main():
             [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]]
     possibles = []
     n=0
-    for i in range(0,144):
+    for i in range(0,36):
         for s1 in grid[0]:
             for s2 in grid[1]:
                 if s1+s2<=i:
